@@ -1,3 +1,4 @@
+#Creates a director, writes to file
 import os
 
 def create_dir(directory):

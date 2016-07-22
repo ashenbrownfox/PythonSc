@@ -31,6 +31,4 @@ def create_report(name, full_url, domain_name, nmap,robots, whois):
     write_file(project_dir + '/nmap.txt', nmap)
     write_file(project_dir + '/robots_txt.txt', robots)
     write_file(project_dir + '/whois', whois)
-
-
-gather_info('thenewboston', 'http://www.thenewboston.com')
+gather_info('reddit.com', 'https://www.reddit.com')
